@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  display: grid;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.tabla{
+  width: 70%;
+  margin-right: 3rem;
+}
+
+.formulario {
+  display: flex;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+.buscador{
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
